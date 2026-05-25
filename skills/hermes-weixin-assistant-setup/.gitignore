@@ -1,0 +1,7 @@
+weixin_qr.png
+weixin_qr.json
+weixin_status.json
+weixin_result.json
+*.log
+.env
+auth.json
