@@ -1,0 +1,5 @@
+interface:
+  display_name: "梳理思路 Skill"
+  short_description: "先澄清目标，再拆解成可执行步骤"
+  default_prompt: "Use $shuli-si-lu-skill to clarify the goal, ask the key questions, and turn the idea into an executable plan."
+
