@@ -1,9 +1,9 @@
 ---
-name: hermes-weixin-assistant-setup
-description: Build or reproduce a Hermes Agent personal WeChat assistant/ClawBot connection. Use when the user asks to接入微信, 扫码登录微信助手, 搭建公众号助手/朋友圈助手/私域群素材采集助手, configure Hermes Gateway/iLink/Weixin, or reuse the previous Hermes-to-WeChat setup flow for another assistant.
+name: weixin-assistant-skill
+description: 微信助手skill：Build or reproduce a Hermes Agent personal WeChat assistant/ClawBot connection. Use when the user asks to调用微信助手skill, 接入微信, 扫码登录微信助手, 搭建公众号助手/朋友圈助手/私域群素材采集助手, configure Hermes Gateway/iLink/Weixin, or reuse the previous Hermes-to-WeChat setup flow for another assistant.
 ---
 
-# Hermes Weixin Assistant Setup
+# 微信助手 Skill
 
 ## Purpose
 

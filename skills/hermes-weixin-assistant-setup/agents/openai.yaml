@@ -1,4 +1,0 @@
-interface:
-  display_name: "Hermes 微信助手接入"
-  short_description: "复用 Hermes 接入个人微信助手、扫码登录和网关配置流程"
-  default_prompt: "Use $hermes-weixin-assistant-setup to set up or reproduce a Hermes-powered WeChat assistant."

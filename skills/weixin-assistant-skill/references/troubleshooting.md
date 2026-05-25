@@ -14,7 +14,7 @@ $hermes = 'C:\Users\Administrator\AppData\Local\hermes\hermes-agent\venv\Scripts
 Check process and logs:
 
 ```powershell
-$skill = 'C:\Users\Administrator\.codex\skills\hermes-weixin-assistant-setup'
+$skill = 'C:\Users\Administrator\.codex\skills\weixin-assistant-skill'
 & "$skill\scripts\gateway.ps1" status
 & "$skill\scripts\gateway.ps1" logs
 ```
@@ -30,7 +30,7 @@ Warnings like `No bot token configured` for Discord are not necessarily a Weixin
 If two assistants respond, stop all gateway processes and restart one:
 
 ```powershell
-$skill = 'C:\Users\Administrator\.codex\skills\hermes-weixin-assistant-setup'
+$skill = 'C:\Users\Administrator\.codex\skills\weixin-assistant-skill'
 & "$skill\scripts\gateway.ps1" stop
 & "$skill\scripts\gateway.ps1" start
 ```

@@ -73,7 +73,7 @@ Keep `SOUL.md` high level. Put long methods, examples, compliance rules, and fil
 Use the bundled QR helper:
 
 ```powershell
-$skill = 'C:\Users\Administrator\.codex\skills\hermes-weixin-assistant-setup'
+$skill = 'C:\Users\Administrator\.codex\skills\weixin-assistant-skill'
 $out = 'C:\Users\Administrator\Nutstore\1\强哥的AI知识库大脑\.runtime\weixin-login'
 python "$skill\scripts\weixin_qr_login.py" "$out"
 ```
@@ -93,7 +93,7 @@ Generated QR/status/result files are temporary and must not be committed.
 Use:
 
 ```powershell
-$skill = 'C:\Users\Administrator\.codex\skills\hermes-weixin-assistant-setup'
+$skill = 'C:\Users\Administrator\.codex\skills\weixin-assistant-skill'
 & "$skill\scripts\gateway.ps1" restart
 & "$skill\scripts\gateway.ps1" status
 ```

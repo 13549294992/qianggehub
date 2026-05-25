@@ -1,0 +1,4 @@
+interface:
+  display_name: "微信助手 Skill"
+  short_description: "复用个人微信助手扫码接入、网关配置和业务挂载流程"
+  default_prompt: "Use $weixin-assistant-skill to set up or reproduce a Hermes-powered WeChat assistant."
